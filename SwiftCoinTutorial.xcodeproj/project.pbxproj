@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F34C40BF2A018BA700D65202 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34C40BE2A018BA700D65202 /* Double.swift */; };
 		F352161729F8C8F500BF43C9 /* SwiftCoinTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352161629F8C8F500BF43C9 /* SwiftCoinTutorialApp.swift */; };
 		F352161929F8C8F500BF43C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352161829F8C8F500BF43C9 /* ContentView.swift */; };
 		F352161B29F8C8FB00BF43C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F352161A29F8C8FB00BF43C9 /* Assets.xcassets */; };
 		F352161E29F8C8FB00BF43C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F352161D29F8C8FB00BF43C9 /* Preview Assets.xcassets */; };
+		F352162D29F8CABA00BF43C9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352162C29F8CABA00BF43C9 /* HomeView.swift */; };
+		F3C7EC602A0018BD008AE9F2 /* AllCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C7EC5F2A0018BD008AE9F2 /* AllCoinsView.swift */; };
+		F3C7EC622A0018EE008AE9F2 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C7EC612A0018EE008AE9F2 /* CoinRowView.swift */; };
+		F3C7EC642A0024ED008AE9F2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C7EC632A0024ED008AE9F2 /* HomeViewModel.swift */; };
+		F3C7EC662A003062008AE9F2 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C7EC652A003062008AE9F2 /* Coin.swift */; };
+		F3C7EC692A006165008AE9F2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F3C7EC682A006165008AE9F2 /* Kingfisher */; };
+		F3F3EF8429FF64AB003472F8 /* TopMoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3EF8329FF64AB003472F8 /* TopMoversView.swift */; };
+		F3F3EF8629FF64D7003472F8 /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3EF8529FF64D7003472F8 /* TopMoversItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F34C40BE2A018BA700D65202 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		F352161329F8C8F500BF43C9 /* SwiftCoinTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCoinTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F352161629F8C8F500BF43C9 /* SwiftCoinTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoinTutorialApp.swift; sourceTree = "<group>"; };
 		F352161829F8C8F500BF43C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F352161A29F8C8FB00BF43C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F352161D29F8C8FB00BF43C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F352162C29F8CABA00BF43C9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F3C7EC5F2A0018BD008AE9F2 /* AllCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsView.swift; sourceTree = "<group>"; };
+		F3C7EC612A0018EE008AE9F2 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		F3C7EC632A0024ED008AE9F2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F3C7EC652A003062008AE9F2 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		F3F3EF8329FF64AB003472F8 /* TopMoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversView.swift; sourceTree = "<group>"; };
+		F3F3EF8529FF64D7003472F8 /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C7EC692A006165008AE9F2 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,7 +69,11 @@
 		F352161529F8C8F500BF43C9 /* SwiftCoinTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				F352161629F8C8F500BF43C9 /* SwiftCoinTutorialApp.swift */,
+				F352162429F8C94300BF43C9 /* Utils */,
+				F352162829F8C96400BF43C9 /* Extensions */,
+				F352162729F8C96400BF43C9 /* Models */,
+				F352162629F8C96200BF43C9 /* Core */,
+				F352162529F8C95F00BF43C9 /* App */,
 				F352161829F8C8F500BF43C9 /* ContentView.swift */,
 				F352161A29F8C8FB00BF43C9 /* Assets.xcassets */,
 				F352161C29F8C8FB00BF43C9 /* Preview Content */,
@@ -65,6 +87,74 @@
 				F352161D29F8C8FB00BF43C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F352162429F8C94300BF43C9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F352162529F8C95F00BF43C9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F352161629F8C8F500BF43C9 /* SwiftCoinTutorialApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F352162629F8C96200BF43C9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F352162929F8C9E300BF43C9 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F352162729F8C96400BF43C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3C7EC652A003062008AE9F2 /* Coin.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F352162829F8C96400BF43C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F34C40BE2A018BA700D65202 /* Double.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F352162929F8C9E300BF43C9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F352162A29F8CA5B00BF43C9 /* Views */,
+				F352162B29F8CA6400BF43C9 /* ViewModels */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F352162A29F8CA5B00BF43C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F352162C29F8CABA00BF43C9 /* HomeView.swift */,
+				F3F3EF8329FF64AB003472F8 /* TopMoversView.swift */,
+				F3F3EF8529FF64D7003472F8 /* TopMoversItemView.swift */,
+				F3C7EC5F2A0018BD008AE9F2 /* AllCoinsView.swift */,
+				F3C7EC612A0018EE008AE9F2 /* CoinRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F352162B29F8CA6400BF43C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F3C7EC632A0024ED008AE9F2 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +173,9 @@
 			dependencies = (
 			);
 			name = SwiftCoinTutorial;
+			packageProductDependencies = (
+				F3C7EC682A006165008AE9F2 /* Kingfisher */,
+			);
 			productName = SwiftCoinTutorial;
 			productReference = F352161329F8C8F500BF43C9 /* SwiftCoinTutorial.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +204,9 @@
 				Base,
 			);
 			mainGroup = F352160A29F8C8F500BF43C9;
+			packageReferences = (
+				F3C7EC672A006165008AE9F2 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = F352161429F8C8F500BF43C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +233,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C7EC662A003062008AE9F2 /* Coin.swift in Sources */,
+				F3F3EF8429FF64AB003472F8 /* TopMoversView.swift in Sources */,
+				F3C7EC602A0018BD008AE9F2 /* AllCoinsView.swift in Sources */,
+				F352162D29F8CABA00BF43C9 /* HomeView.swift in Sources */,
+				F3C7EC642A0024ED008AE9F2 /* HomeViewModel.swift in Sources */,
 				F352161929F8C8F500BF43C9 /* ContentView.swift in Sources */,
 				F352161729F8C8F500BF43C9 /* SwiftCoinTutorialApp.swift in Sources */,
+				F3C7EC622A0018EE008AE9F2 /* CoinRowView.swift in Sources */,
+				F34C40BF2A018BA700D65202 /* Double.swift in Sources */,
+				F3F3EF8629FF64D7003472F8 /* TopMoversItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +441,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3C7EC672A006165008AE9F2 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3C7EC682A006165008AE9F2 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3C7EC672A006165008AE9F2 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F352160B29F8C8F500BF43C9 /* Project object */;
 }
